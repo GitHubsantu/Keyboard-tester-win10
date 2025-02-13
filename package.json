@@ -1,0 +1,54 @@
+{
+  "name": "keyboardtester",
+  "version": "1.0.0",
+  "description": "A tool to test keyboard functionality",
+  "lockfileVersion": 3,
+  "requires": true,
+  "main": "main.js",
+  "author": "DevOps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/githubsantu"
+  },
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . keyboardtester --platform=win32 --arch=x64 --out=dist --overwrite --electron-version=25.3.1 --icon=keyboardtester.ico",
+    "build": "electron-builder",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "electron": "^25.9.8",
+    "electron-builder": "^25.1.8",
+    "electron-packager": "^17.1.2",
+    "rimraf": "^6.0.1"
+  },
+  "build": {
+    "appId": "com.keyboardtester.app",
+    "productName": "Keyboard Tester By DevOps",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "keyboardtester.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Keyboard Tester By DevOps"
+    }
+  },
+  "asarUnpack": "**/*",
+  "extraMetadata": {
+    "disableSymbolicLinks": true
+  },
+  "dependencies": {
+    "@electron/rebuild": "^3.7.1"
+  }
+}
