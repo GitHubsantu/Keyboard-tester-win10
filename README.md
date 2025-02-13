@@ -96,7 +96,9 @@ Follow the steps below to create your own version of the Keyboard Tester applica
 
 ## Download Link
 You can download the latest version of the application here:
-[Keyboard Tester Setup 1.0.0.exe](https://github.com/GitHubsantu/Keyboard-tester-win10/releases/download/v1.0.0/Keyboard.Tester.Setup.1.0.0.exe)
+[Keyboard Tester Setup 1.0.0.exe](https://github.com/GitHubsantu/Keyboard-tester-win10/releases/download/v1.0.0/Keyboard.Tester.By.DevOps.Setup.v1.0.0.exe)
+
+[Keyboard Tester Releases Details](https://github.com/GitHubsantu/Keyboard-tester-win10/releases)
 
 ## Contributing
 If you'd like to contribute to this project, feel free to submit a pull request or open an issue on GitHub.
